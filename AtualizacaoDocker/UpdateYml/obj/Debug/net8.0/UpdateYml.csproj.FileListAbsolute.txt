@@ -1,0 +1,15 @@
+/home/mac/docker-project/AtualizacaoDocker/UpdateYml/bin/Debug/net8.0/UpdateYml
+/home/mac/docker-project/AtualizacaoDocker/UpdateYml/bin/Debug/net8.0/UpdateYml.deps.json
+/home/mac/docker-project/AtualizacaoDocker/UpdateYml/bin/Debug/net8.0/UpdateYml.runtimeconfig.json
+/home/mac/docker-project/AtualizacaoDocker/UpdateYml/bin/Debug/net8.0/UpdateYml.dll
+/home/mac/docker-project/AtualizacaoDocker/UpdateYml/bin/Debug/net8.0/UpdateYml.pdb
+/home/mac/docker-project/AtualizacaoDocker/UpdateYml/obj/Debug/net8.0/UpdateYml.GeneratedMSBuildEditorConfig.editorconfig
+/home/mac/docker-project/AtualizacaoDocker/UpdateYml/obj/Debug/net8.0/UpdateYml.AssemblyInfoInputs.cache
+/home/mac/docker-project/AtualizacaoDocker/UpdateYml/obj/Debug/net8.0/UpdateYml.AssemblyInfo.cs
+/home/mac/docker-project/AtualizacaoDocker/UpdateYml/obj/Debug/net8.0/UpdateYml.csproj.CoreCompileInputs.cache
+/home/mac/docker-project/AtualizacaoDocker/UpdateYml/obj/Debug/net8.0/UpdateYml.sourcelink.json
+/home/mac/docker-project/AtualizacaoDocker/UpdateYml/obj/Debug/net8.0/UpdateYml.dll
+/home/mac/docker-project/AtualizacaoDocker/UpdateYml/obj/Debug/net8.0/refint/UpdateYml.dll
+/home/mac/docker-project/AtualizacaoDocker/UpdateYml/obj/Debug/net8.0/UpdateYml.pdb
+/home/mac/docker-project/AtualizacaoDocker/UpdateYml/obj/Debug/net8.0/UpdateYml.genruntimeconfig.cache
+/home/mac/docker-project/AtualizacaoDocker/UpdateYml/obj/Debug/net8.0/ref/UpdateYml.dll

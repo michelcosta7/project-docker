@@ -1,7 +1,6 @@
 # Direto no console Terminal Prompt de comandos
 # docker run some-mysql -p 3306:3306 -e MYSQL_ROOT_PASSWORD=123456 -d mysql:8.0.29
 #
-version: '3'
 
 services:
 
