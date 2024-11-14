@@ -1,0 +1,56 @@
+# comando intalar rabbitmq - servidor menssageria
+# docker pull rabbitmq
+# docker pull mysql
+
+# string de conexão do postgres
+# postgres://postgres:postgrespw@localhost:49153
+
+#--POSTGRESQL---------------------------------------------------------------------------------------------------
+#docker run --name pgadmin -e 
+#"PGADMIN_DEFAULT_EMAIL=michelifmtads@gmail.com" -e "PGADMIN_DEFAULT_PASSWORD=admin" -p 5050:80 -d dpage/pgadmin4 
+
+#usuario banco de dados hostname: user: michel password: admin
+
+#-RABBITMQ-------------------------------------------------------------------------------------------------------
+# docker run --rm -it --hostname my-rabbit -p 15672:15672 -p 5672:5672 rabbitmq:3-management
+# http://localhost:15672/#/
+
+#-----------------------------------------------------------------------------------
+# docker run -d –hostname my-rabbit –name some-rabbit -p 15672:15672 -p 5672:5672 rabbitmq:3-management
+ 
+# RODAR SQL SERVER 2019
+# INSTALAR -> docker run -e "ACCEPT_EULA=Y" -e "SA_PASSWORD=yourStrong(!)Password" -e "MSSQL_PID=Express" -p 1433:1433 -d mcr.microsoft.com/mssql/server:2019-latest
+# docker exec -it <container_id|container_name> /opt/mssql-tools/bin/sqlcmd -S localhost -U sa -P <your_password>
+
+docker-compose
+version: '3.8'
+services:
+ db:
+   container_name: postgres_container
+   image: postgres: 9.5
+   restart: always
+   environment:
+     POSTGRES_DB: postgres_db
+     POSTGRES_USER: admin
+     POSTGRES_PASSWORD: secret
+     PGDATA: /var/lib/postgresql/data
+   ports:
+     - "5432:5432"
+   volumes:
+     - db-data:/var/lib/postgresql/data
+
+ pgadmin:
+   container_name: pgadmin4_container
+   image: dpage/pgadmin4:5.5
+   restart: always
+   environment:
+     PGADMIN_DEFAULT_EMAIL: admin@admin.com
+     PGADMIN_DEFAULT_PASSWORD: secret
+     PGADMIN_LISTEN_PORT: 80
+   ports:
+     - "8080:80"
+   volumes:
+     - pgadmin-data:/var/lib/pgadmin
+volumes:
+ db-data:
+ pgadmin-data:

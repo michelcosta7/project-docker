@@ -1,0 +1,3 @@
+//Comando para construir o container docker-compose
+docker compose up
+

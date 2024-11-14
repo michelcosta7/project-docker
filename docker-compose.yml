@@ -1,0 +1,32 @@
+version: '3'
+services:
+  postgresql-docker:
+    image: postgres:9.6
+    environment:
+      POSTGRES_PASSWORD: "123456"
+    ports:
+      - "15432:5432"
+    volumes:
+      - /AmbienteDocker/PostgreSQL:/var/lib/postgresql/data 
+      - ./scripts:/scripts
+      - ./scripts/init.sql:/docker-entrypoint-initdb.d/init.sql
+    networks:
+      - postgres-compose-network
+      
+  pgadmin-docker:
+    image: dpage/pgadmin4
+    environment:
+      hostname: localhost
+      PGADMIN_DEFAULT_EMAIL: "michelifmtads@gmail.com"
+      PGADMIN_DEFAULT_PASSWORD: "123456"
+    ports:
+      - "16543:80"
+    depends_on:
+      - postgresql-docker
+    networks:
+      - postgres-compose-network
+
+networks: 
+  postgres-compose-network:
+    driver: bridge
+

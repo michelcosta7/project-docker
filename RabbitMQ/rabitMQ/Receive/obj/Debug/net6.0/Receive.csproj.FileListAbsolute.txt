@@ -1,0 +1,12 @@
+E:\DEV\rabitMQ\Receive\bin\Debug\net6.0\Receive.exe
+E:\DEV\rabitMQ\Receive\bin\Debug\net6.0\Receive.dll
+E:\DEV\rabitMQ\Receive\bin\Debug\net6.0\RabbitMQ.Client.dll
+E:\DEV\rabitMQ\Receive\obj\Debug\net6.0\Receive.csproj.AssemblyReference.cache
+E:\DEV\rabitMQ\Receive\obj\Debug\net6.0\Receive.GeneratedMSBuildEditorConfig.editorconfig
+E:\DEV\rabitMQ\Receive\obj\Debug\net6.0\Receive.AssemblyInfoInputs.cache
+E:\DEV\rabitMQ\Receive\obj\Debug\net6.0\Receive.AssemblyInfo.cs
+E:\DEV\rabitMQ\Receive\obj\Debug\net6.0\Receive.csproj.CoreCompileInputs.cache
+E:\DEV\rabitMQ\Receive\obj\Debug\net6.0\Receive.csproj.CopyComplete
+E:\DEV\rabitMQ\Receive\obj\Debug\net6.0\Receive.dll
+E:\DEV\rabitMQ\Receive\obj\Debug\net6.0\refint\Receive.dll
+E:\DEV\rabitMQ\Receive\obj\Debug\net6.0\Receive.pdb

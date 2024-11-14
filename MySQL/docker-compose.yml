@@ -1,0 +1,16 @@
+version: '3'
+ 
+services:
+  db:
+    image: mysql:5
+    container_name: db
+    environment:
+      MYSQL_ROOT_PASSWORD: 123456
+      MYSQL_DATABASE: dados
+      MYSQL_USER: michel
+      MYSQL_PASSWORD: qwe123
+    ports:
+      - "3306:3306"
+    volumes:
+      - E:\DEV\docker-dados\senai:/var/lib/mysql
+  

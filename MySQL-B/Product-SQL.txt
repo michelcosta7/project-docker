@@ -1,0 +1,7 @@
+INSERT INTO product(
+	name
+	,price
+	,description
+	,image_url
+	,category_name)
+	VALUES ('TESTES',100, 'TESTES', 'TESTES', 'TESTES' );

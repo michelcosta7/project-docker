@@ -1,0 +1,24 @@
+version: '3'
+services:
+  sqlserver-docker:
+    image: mcr.microsoft.com/mssql/server:2019-latest
+    environment:
+    - SA_PASSWORD=Qwe!2345678
+    - ACCEPT_EULA=Y
+    
+    - LojaVirtualConnectionString_DefaultConnection=Server=localhost,1450;database= LojaVirtualFinal; User Id=sa;Password=Qwe!2345678
+    
+    volumes:
+      - E:\dadosdocker:/var/opt/mssql/data   
+    
+    ports:
+      - "1450:1433"
+      
+      # docker compose up    -- para rodar e download da imagem container
+      #atenção para conectar no MSSQL manager na cofig conexao no endereço host colocar   .,1450
+      # Isso mesmo ponto = .  , virgula=,   , e a porta exposta=1450  Funcionou assim 
+
+ 
+    
+    
+

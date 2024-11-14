@@ -1,0 +1,17 @@
+E:\DEV\rabitMQ\Send\bin\Debug\net6.0\Send.exe
+E:\DEV\rabitMQ\Send\bin\Debug\net6.0\Send.deps.json
+E:\DEV\rabitMQ\Send\bin\Debug\net6.0\Send.runtimeconfig.json
+E:\DEV\rabitMQ\Send\bin\Debug\net6.0\Send.dll
+E:\DEV\rabitMQ\Send\bin\Debug\net6.0\Send.pdb
+E:\DEV\rabitMQ\Send\bin\Debug\net6.0\RabbitMQ.Client.dll
+E:\DEV\rabitMQ\Send\obj\Debug\net6.0\Send.csproj.AssemblyReference.cache
+E:\DEV\rabitMQ\Send\obj\Debug\net6.0\Send.GeneratedMSBuildEditorConfig.editorconfig
+E:\DEV\rabitMQ\Send\obj\Debug\net6.0\Send.AssemblyInfoInputs.cache
+E:\DEV\rabitMQ\Send\obj\Debug\net6.0\Send.AssemblyInfo.cs
+E:\DEV\rabitMQ\Send\obj\Debug\net6.0\Send.csproj.CoreCompileInputs.cache
+E:\DEV\rabitMQ\Send\obj\Debug\net6.0\Send.csproj.CopyComplete
+E:\DEV\rabitMQ\Send\obj\Debug\net6.0\Send.dll
+E:\DEV\rabitMQ\Send\obj\Debug\net6.0\refint\Send.dll
+E:\DEV\rabitMQ\Send\obj\Debug\net6.0\Send.pdb
+E:\DEV\rabitMQ\Send\obj\Debug\net6.0\Send.genruntimeconfig.cache
+E:\DEV\rabitMQ\Send\obj\Debug\net6.0\ref\Send.dll
