@@ -10,5 +10,5 @@ services:
     ports:
       - "3306:3306"
     volumes:
-      - E:\DEV\docker-dados\senai:/var/lib/mysql
+      - /home/mac/dados/mysqldata:/var/lib/mysql
   
