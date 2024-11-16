@@ -1,0 +1,40 @@
+docker ps
+Listar todos os containers (incluindo os parados):
+
+docker ps -a
+Listar Imagens
+Para listar todas as imagens que você tem localmente:
+
+docker images
+Rodar um Container
+Para rodar um container com uma imagem específica:
+
+docker run [opções] nome_da_imagem
+Exemplo simples (rodando um container no modo interativo com a imagem ubuntu):
+
+docker run -it ubuntu
+Exemplo com porta mapeada e nome definido:
+
+docker run -d -p 8080:80 --name meu_container nome_da_imagem
+-d: Roda o container em background (modo "detached").
+-p: Mapeia porta local para a porta do container.
+--name: Dá um nome ao container para facilitar a referência.
+
+Parar um Container
+Para parar um container rodando:
+
+docker stop nome_do_container_ou_id
+Reiniciar um Container
+Para reiniciar um container:
+
+docker restart nome_do_container_ou_id
+Reiniciar o Serviço Docker
+Se você precisa reiniciar o serviço Docker (ainda mais útil no Linux):
+
+sudo systemctl restart docker
+ou, dependendo do seu sistema:
+
+sudo service docker restart
+
+# comando pra rodar uma imagem do mysql
+docker run -d   -e MYSQL_ROOT_PASSWORD=qwe123   5107333e08a8
