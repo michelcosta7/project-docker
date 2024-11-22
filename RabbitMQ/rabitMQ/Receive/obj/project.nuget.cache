@@ -1,12 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "oe68y4fX8e45oQRgCVOr+Z1g3jf3RO/IQQiEg/wQsZMVDSWkqIxgBGnWLtQRPGPwfkIC4w+oQN7KqARx3QHgRw==",
+  "dgSpecHash": "ut2ATlx0O/o=",
   "success": true,
-  "projectFilePath": "E:\\DEV\\rabitMQ\\Receive\\Receive.csproj",
+  "projectFilePath": "\\\\wsl.localhost\\Ubuntu\\home\\mac\\docker-project\\RabbitMQ\\rabitMQ\\Receive\\Receive.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\maccb\\.nuget\\packages\\rabbitmq.client\\6.4.0\\rabbitmq.client.6.4.0.nupkg.sha512",
-    "C:\\Users\\maccb\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
-    "C:\\Users\\maccb\\.nuget\\packages\\system.threading.channels\\4.7.1\\system.threading.channels.4.7.1.nupkg.sha512"
+    "C:\\Users\\mac\\.nuget\\packages\\rabbitmq.client\\6.4.0\\rabbitmq.client.6.4.0.nupkg.sha512",
+    "C:\\Users\\mac\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
+    "C:\\Users\\mac\\.nuget\\packages\\system.threading.channels\\4.7.1\\system.threading.channels.4.7.1.nupkg.sha512",
+    "C:\\Users\\mac\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.35\\microsoft.netcore.app.ref.6.0.35.nupkg.sha512",
+    "C:\\Users\\mac\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.35\\microsoft.windowsdesktop.app.ref.6.0.35.nupkg.sha512",
+    "C:\\Users\\mac\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.35\\microsoft.aspnetcore.app.ref.6.0.35.nupkg.sha512",
+    "C:\\Users\\mac\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.35\\microsoft.netcore.app.host.win-x64.6.0.35.nupkg.sha512"
   ],
   "logs": []
 }
